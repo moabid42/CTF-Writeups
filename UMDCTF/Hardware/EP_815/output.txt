@@ -1,0 +1,597 @@
+Machine Cycle 0001: PC = 0002, 
+FETCH SUBCYCLE
+MAR = 0002, IR = 2000, 
+Clock cycle = 2
+DECODE SUBCYCLE
+Decoded instruction is: LDA
+Clock cycle = 2
+EXECUTE SUBCYCLE
+Clock cycle = 3
+
+*************Begin[Machine Level]*****************
+
+A = 0000, B = 0000, Z = 0, S = 0, C = 0, F = 0
+MAR = 0002, PC = 0004, IR = 2000, reset = 0
+add = 0 complement = 0
+
+Memory[0000] = 0000
+
+*************End[Machine Level]*****************
+
+
+
+Machine Cycle 0002: PC = 0004, 
+FETCH SUBCYCLE
+MAR = 0004, IR = 2001, 
+Clock cycle = 5
+DECODE SUBCYCLE
+Decoded instruction is: LDA
+Clock cycle = 5
+EXECUTE SUBCYCLE
+Clock cycle = 6
+
+*************Begin[Machine Level]*****************
+
+A = 0000, B = 0000, Z = 0, S = 0, C = 0, F = 0
+MAR = 0004, PC = 0006, IR = 2001, reset = 0
+add = 0 complement = 0
+
+Memory[0001] = 0000
+
+*************End[Machine Level]*****************
+
+
+
+Machine Cycle 0003: PC = 0006, 
+FETCH SUBCYCLE
+MAR = 0006, IR = 2010, 
+Clock cycle = 8
+DECODE SUBCYCLE
+Decoded instruction is: LDA
+Clock cycle = 8
+EXECUTE SUBCYCLE
+Clock cycle = 9
+
+*************Begin[Machine Level]*****************
+
+A = 0000, B = 0000, Z = 0, S = 0, C = 0, F = 0
+MAR = 0006, PC = 0008, IR = 2010, reset = 0
+add = 0 complement = 0
+
+Memory[0010] = 0000
+
+*************End[Machine Level]*****************
+
+
+
+Machine Cycle 0004: PC = 0008, 
+FETCH SUBCYCLE
+MAR = 0008, IR = 2000, 
+Clock cycle = B
+DECODE SUBCYCLE
+Decoded instruction is: LDA
+Clock cycle = B
+EXECUTE SUBCYCLE
+Clock cycle = C
+
+*************Begin[Machine Level]*****************
+
+A = 0000, B = 0000, Z = 0, S = 0, C = 0, F = 0
+MAR = 0008, PC = 000A, IR = 2000, reset = 0
+add = 0 complement = 0
+
+Memory[0000] = 0000
+
+*************End[Machine Level]*****************
+
+
+
+Machine Cycle 0005: PC = 000A, 
+FETCH SUBCYCLE
+MAR = 000A, IR = 2001, 
+Clock cycle = E
+DECODE SUBCYCLE
+Decoded instruction is: LDA
+Clock cycle = E
+EXECUTE SUBCYCLE
+Clock cycle = F
+
+*************Begin[Machine Level]*****************
+
+A = 0000, B = 0001, Z = 0, S = 0, C = 0, F = 0
+MAR = 000A, PC = 000C, IR = 2001, reset = 0
+add = 0 complement = 0
+
+Memory[0001] = 0001
+
+*************End[Machine Level]*****************
+
+
+
+Machine Cycle 0006: PC = 000C, 
+FETCH SUBCYCLE
+MAR = 000C, IR = 2010, 
+Clock cycle = 11
+DECODE SUBCYCLE
+Decoded instruction is: LDA
+Clock cycle = 11
+EXECUTE SUBCYCLE
+Clock cycle = 12
+
+*************Begin[Machine Level]*****************
+
+A = 0000, B = 0001, Z = 0, S = 0, C = 0, F = 0
+MAR = 000C, PC = 000E, IR = 2010, reset = 0
+add = 0 complement = 0
+
+Memory[0010] = 0000
+
+*************End[Machine Level]*****************
+
+
+
+
+
+
+
+
+
+Machine Cycle 0007: PC = 000E, 
+FETCH SUBCYCLE
+MAR = 000E, IR = 0554, 
+Clock cycle = 14
+DECODE SUBCYCLE
+Decoded instruction is: ADD
+Clock cycle = 14
+EXECUTE SUBCYCLE
+Clock cycle = 15
+
+*************Begin[Machine Level]*****************
+
+A = 0001, B = 0001, Z = 0, S = 0, C = 0, F = 0
+MAR = 000E, PC = 000F, IR = 0554, reset = 0
+add = 1 complement = 0
+
+Machine Cycle 0008: PC = 000F, 
+FETCH SUBCYCLE
+MAR = 000F, IR = 1000, 
+Clock cycle = 17
+DECODE SUBCYCLE
+Decoded instruction is: CMP
+Clock cycle = 17
+EXECUTE SUBCYCLE
+Clock cycle = 18
+
+*************Begin[Machine Level]*****************
+
+A = FFFE, B = 0001, Z = 0, S = 1, C = 0, F = 0
+MAR = 000F, PC = 0010, IR = 1000, reset = 0
+add = 0 complement = 1
+
+Machine Cycle 0009: PC = 0010, 
+FETCH SUBCYCLE
+MAR = 0010, IR = 0000, 
+Clock cycle = 1A
+DECODE SUBCYCLE
+Decoded instruction is: ADD
+Clock cycle = 1A
+EXECUTE SUBCYCLE
+Clock cycle = 1B
+
+*************Begin[Machine Level]*****************
+
+A = FFFF, B = 0001, Z = 0, S = 1, C = 0, F = 0
+MAR = 0010, PC = 0011, IR = 0000, reset = 0
+add = 1 complement = 0
+
+Machine Cycle 000A: PC = 0011, 
+FETCH SUBCYCLE
+MAR = 0011, IR = 2001, 
+Clock cycle = 1D
+DECODE SUBCYCLE
+Decoded instruction is: LDA
+Clock cycle = 1D
+EXECUTE SUBCYCLE
+Clock cycle = 1E
+
+*************Begin[Machine Level]*****************
+
+A = FFFF, B = 0001, Z = 0, S = 1, C = 0, F = 0
+MAR = 0011, PC = 0013, IR = 2001, reset = 0
+add = 0 complement = 0
+
+Memory[0001] = 0001
+
+*************End[Machine Level]*****************
+
+
+
+
+
+
+
+
+
+
+
+
+Machine Cycle 000B: PC = 0013, 
+FETCH SUBCYCLE
+MAR = 0013, IR = 0435, 
+Clock cycle = 20
+DECODE SUBCYCLE
+Decoded instruction is: ADD
+Clock cycle = 20
+EXECUTE SUBCYCLE
+Clock cycle = 21
+
+*************Begin[Machine Level]*****************
+
+A = 0000, B = 0001, Z = 1, S = 0, C = 0, F = 0
+MAR = 0013, PC = 0014, IR = 0435, reset = 0
+add = 1 complement = 0
+
+
+
+
+
+
+Machine Cycle 000C: PC = 0014, 
+FETCH SUBCYCLE
+MAR = 0014, IR = 0446, 
+Clock cycle = 23
+DECODE SUBCYCLE
+Decoded instruction is: ADD
+Clock cycle = 23
+EXECUTE SUBCYCLE
+Clock cycle = 24
+
+*************Begin[Machine Level]*****************
+
+A = 0001, B = 0001, Z = 0, S = 0, C = 0, F = 0
+MAR = 0014, PC = 0015, IR = 0446, reset = 0
+add = 1 complement = 0
+
+Machine Cycle 000D: PC = 0015, 
+FETCH SUBCYCLE
+MAR = 0015, IR = 1000, 
+Clock cycle = 26
+DECODE SUBCYCLE
+Decoded instruction is: CMP
+Clock cycle = 26
+EXECUTE SUBCYCLE
+Clock cycle = 27
+
+*************Begin[Machine Level]*****************
+
+A = FFFE, B = 0001, Z = 0, S = 1, C = 0, F = 0
+MAR = 0015, PC = 0016, IR = 1000, reset = 0
+add = 0 complement = 1
+
+Machine Cycle 000E: PC = 0016, 
+FETCH SUBCYCLE
+MAR = 0016, IR = 07B7, 
+Clock cycle = 29
+DECODE SUBCYCLE
+Decoded instruction is: ADD
+Clock cycle = 29
+EXECUTE SUBCYCLE
+Clock cycle = 2A
+
+*************Begin[Machine Level]*****************
+
+A = FFFF, B = 0001, Z = 0, S = 1, C = 0, F = 0
+MAR = 0016, PC = 0017, IR = 07B7, reset = 0
+add = 1 complement = 0
+
+Machine Cycle 000F: PC = 0017, 
+FETCH SUBCYCLE
+MAR = 0017, IR = 2001, 
+Clock cycle = 2C
+DECODE SUBCYCLE
+Decoded instruction is: LDA
+Clock cycle = 2C
+EXECUTE SUBCYCLE
+Clock cycle = 2D
+
+*************Begin[Machine Level]*****************
+
+A = FFFF, B = 0001, Z = 0, S = 1, C = 0, F = 0
+MAR = 0017, PC = 0019, IR = 2001, reset = 0
+add = 0 complement = 0
+
+Memory[0001] = 0001
+
+*************End[Machine Level]*****************
+
+
+
+Machine Cycle 0010: PC = 0019, 
+FETCH SUBCYCLE
+MAR = 0019, IR = 036D, 
+Clock cycle = 2F
+DECODE SUBCYCLE
+Decoded instruction is: ADD
+Clock cycle = 2F
+EXECUTE SUBCYCLE
+Clock cycle = 30
+
+*************Begin[Machine Level]*****************
+
+A = 0000, B = 0001, Z = 1, S = 0, C = 0, F = 0
+MAR = 0019, PC = 001A, IR = 036D, reset = 0
+add = 1 complement = 0
+
+Machine Cycle 0011: PC = 001A, 
+FETCH SUBCYCLE
+MAR = 001A, IR = 0756, 
+Clock cycle = 32
+DECODE SUBCYCLE
+Decoded instruction is: ADD
+Clock cycle = 32
+EXECUTE SUBCYCLE
+Clock cycle = 33
+
+*************Begin[Machine Level]*****************
+
+A = 0001, B = 0001, Z = 0, S = 0, C = 0, F = 0
+MAR = 001A, PC = 001B, IR = 0756, reset = 0
+add = 1 complement = 0
+
+Machine Cycle 0012: PC = 001B, 
+FETCH SUBCYCLE
+MAR = 001B, IR = 1000, 
+Clock cycle = 35
+DECODE SUBCYCLE
+Decoded instruction is: CMP
+Clock cycle = 35
+EXECUTE SUBCYCLE
+Clock cycle = 36
+
+*************Begin[Machine Level]*****************
+
+A = FFFE, B = 0001, Z = 0, S = 1, C = 0, F = 0
+MAR = 001B, PC = 001C, IR = 1000, reset = 0
+add = 0 complement = 1
+
+Machine Cycle 0013: PC = 001C, 
+FETCH SUBCYCLE
+MAR = 001C, IR = 0767, 
+Clock cycle = 38
+DECODE SUBCYCLE
+Decoded instruction is: ADD
+Clock cycle = 38
+EXECUTE SUBCYCLE
+Clock cycle = 39
+
+*************Begin[Machine Level]*****************
+
+A = FFFF, B = 0001, Z = 0, S = 1, C = 0, F = 0
+MAR = 001C, PC = 001D, IR = 0767, reset = 0
+add = 1 complement = 0
+
+Machine Cycle 0014: PC = 001D, 
+FETCH SUBCYCLE
+MAR = 001D, IR = 2001, 
+Clock cycle = 3B
+DECODE SUBCYCLE
+Decoded instruction is: LDA
+Clock cycle = 3B
+EXECUTE SUBCYCLE
+Clock cycle = 3C
+
+*************Begin[Machine Level]*****************
+
+A = FFFF, B = 0001, Z = 0, S = 1, C = 0, F = 0
+MAR = 001D, PC = 001F, IR = 2001, reset = 0
+add = 0 complement = 0
+
+Memory[0001] = 0001
+
+*************End[Machine Level]*****************
+
+
+
+Machine Cycle 0015: PC = 001F, 
+FETCH SUBCYCLE
+MAR = 001F, IR = 06C3, 
+Clock cycle = 3E
+DECODE SUBCYCLE
+Decoded instruction is: ADD
+Clock cycle = 3E
+EXECUTE SUBCYCLE
+Clock cycle = 3F
+
+*************Begin[Machine Level]*****************
+
+A = 0000, B = 0001, Z = 1, S = 0, C = 0, F = 0
+MAR = 001F, PC = 0020, IR = 06C3, reset = 0
+add = 1 complement = 0
+
+Machine Cycle 0016: PC = 0020, 
+FETCH SUBCYCLE
+MAR = 0020, IR = 0364, 
+Clock cycle = 41
+DECODE SUBCYCLE
+Decoded instruction is: ADD
+Clock cycle = 41
+EXECUTE SUBCYCLE
+Clock cycle = 42
+
+*************Begin[Machine Level]*****************
+
+A = 0001, B = 0001, Z = 0, S = 0, C = 0, F = 0
+MAR = 0020, PC = 0021, IR = 0364, reset = 0
+add = 1 complement = 0
+
+Machine Cycle 0017: PC = 0021, 
+FETCH SUBCYCLE
+MAR = 0021, IR = 1000, 
+Clock cycle = 44
+DECODE SUBCYCLE
+Decoded instruction is: CMP
+Clock cycle = 44
+EXECUTE SUBCYCLE
+Clock cycle = 45
+
+*************Begin[Machine Level]*****************
+
+A = FFFE, B = 0001, Z = 0, S = 1, C = 0, F = 0
+MAR = 0021, PC = 0022, IR = 1000, reset = 0
+add = 0 complement = 1
+
+Machine Cycle 0018: PC = 0022, 
+FETCH SUBCYCLE
+MAR = 0022, IR = 05F6, 
+Clock cycle = 47
+DECODE SUBCYCLE
+Decoded instruction is: ADD
+Clock cycle = 47
+EXECUTE SUBCYCLE
+Clock cycle = 48
+
+*************Begin[Machine Level]*****************          ////////////////////////////////////
+
+A = FFFF, B = 0001, Z = 0, S = 1, C = 0, F = 0
+MAR = 0022, PC = 0023, IR = 05F6, reset = 0
+add = 1 complement = 0
+
+Machine Cycle 0019: PC = 0023, 
+FETCH SUBCYCLE
+MAR = 0023, IR = 2001, 
+Clock cycle = 4A
+DECODE SUBCYCLE
+Decoded instruction is: LDA
+Clock cycle = 4A
+EXECUTE SUBCYCLE
+Clock cycle = 4B
+
+*************Begin[Machine Level]*****************
+
+A = FFFF, B = 0001, Z = 0, S = 1, C = 0, F = 0
+MAR = 0023, PC = 0025, IR = 2001, reset = 0
+add = 0 complement = 0
+
+Memory[0001] = 0001
+
+*************End[Machine Level]*****************
+
+
+
+Machine Cycle 001A: PC = 0025, 
+FETCH SUBCYCLE
+MAR = 0025, IR = 0E30, 
+Clock cycle = 4D
+DECODE SUBCYCLE
+Decoded instruction is: ADD
+Clock cycle = 4D
+EXECUTE SUBCYCLE
+Clock cycle = 4E
+
+*************Begin[Machine Level]*****************
+
+A = 0000, B = 0001, Z = 1, S = 0, C = 0, F = 0
+MAR = 0025, PC = 0026, IR = 0E30, reset = 0
+add = 1 complement = 0
+
+Machine Cycle 001B: PC = 0026, 
+FETCH SUBCYCLE
+MAR = 0026, IR = 2010, 
+Clock cycle = 50
+DECODE SUBCYCLE
+Decoded instruction is: LDA
+Clock cycle = 50
+EXECUTE SUBCYCLE
+Clock cycle = 51
+
+*************Begin[Machine Level]*****************
+
+A = 0000, B = 0001, Z = 1, S = 0, C = 0, F = 0
+MAR = 0026, PC = 0028, IR = 2010, reset = 0
+add = 0 complement = 0
+
+Memory[0010] = 000A
+
+*************End[Machine Level]*****************
+
+
+
+Machine Cycle 001C: PC = 0028, 
+FETCH SUBCYCLE
+MAR = 0028, IR = 2000, 
+Clock cycle = 53
+DECODE SUBCYCLE
+Decoded instruction is: LDA
+Clock cycle = 53
+EXECUTE SUBCYCLE
+Clock cycle = 54
+
+*************Begin[Machine Level]*****************
+
+A = 0001, B = 0001, Z = 1, S = 0, C = 0, F = 0
+MAR = 0028, PC = 002A, IR = 2000, reset = 0
+add = 0 complement = 0
+
+Memory[0000] = 0001
+
+*************End[Machine Level]*****************
+
+
+
+Machine Cycle 001D: PC = 002A, 
+FETCH SUBCYCLE
+MAR = 002A, IR = 3001, 
+Clock cycle = 56
+DECODE SUBCYCLE
+Decoded instruction is: MOV
+Clock cycle = 56
+EXECUTE SUBCYCLE
+Clock cycle = 58
+
+*************Begin[Machine Level]*****************
+
+A = 0001, B = 000A, Z = 1, S = 0, C = 0, F = 0
+MAR = 002A, PC = 002C, IR = 3001, reset = 0
+add = 0 complement = 0
+
+Memory[0001] = 000A
+
+*************End[Machine Level]*****************
+
+
+
+Machine Cycle 001E: PC = 002C, 
+FETCH SUBCYCLE
+MAR = 002C, IR = 06D3, 
+Clock cycle = 5A
+DECODE SUBCYCLE
+Decoded instruction is: ADD
+Clock cycle = 5A
+EXECUTE SUBCYCLE
+Clock cycle = 5B
+
+*************Begin[Machine Level]*****************
+
+A = 000B, B = 000A, Z = 0, S = 0, C = 0, F = 0
+MAR = 002C, PC = 002D, IR = 06D3, reset = 0
+add = 1 complement = 0
+
+Machine Cycle 001F: PC = 002D, 
+FETCH SUBCYCLE
+MAR = 002D, IR = 757D, 
+Clock cycle = 5D
+DECODE SUBCYCLE
+Decoded instruction is: HLT
+Clock cycle = 5D
+EXECUTE SUBCYCLE
+Clock cycle = 5E
+
+*************Begin[Machine Level]*****************
+
+A = 000B, B = 000A, Z = 0, S = 0, C = 0, F = 0
+MAR = 002D, PC = 002E, IR = 757D, reset = 1
+add = 0 complement = 0
+
+The number of instructions executed  = 31
+The number of clock cycles used = 94
+
