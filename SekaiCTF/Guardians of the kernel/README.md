@@ -228,7 +228,7 @@ int main(int argc, char **argv) {
 }
 ```
 
-## Third Layer
+## Third Step
 To solve this piece of code:
 
 ```c
