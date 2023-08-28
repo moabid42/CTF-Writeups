@@ -310,6 +310,4 @@ If a satisfying solution is found, the script extracts the character values from
     for i in range(13):
         second_part += chr(int(str(m[buffer[i]])))
 ```
-This part corresponds to recovering the characters that satisfy the constraints, similar to how the buffer array values are checked in the C code.
-
-In essence, the Python script uses the Z3 solver to find values for the buffer array that satisfy the specified constraints, simulating the behavior of the given C code and recovering the characters that meet the conditions.
+and just like Magic we get our second part and a good looking, challenge solved, on the screen ! 
