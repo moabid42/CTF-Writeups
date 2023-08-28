@@ -151,7 +151,7 @@ We should be able to see smth like this :
 / # lsmod
 flag_checker 16384 0 - Live 0xffffffffc0000000 (O)
 ```
-Which means are module is running.
+Which means that our module is running.
 
 ## Second Step
 Now that we have our kernel running, we have to find a way to interact with the module and to do that, I made a script that uses the ioctl function in C, however now we have to find a way to run it in the kernel environment and to do that, you can either start a shared point with qemu and then anything you paste there can be accessible by both your localhost and the running kernel, or you can use my l33t way of doing stuff.
