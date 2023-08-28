@@ -34,6 +34,7 @@ int main(int argc, char **argv) {
         else
             printf("Wrong !");
 
+    // bruteforce the layer one
     request = 0x7001;
     int i = 0;
     while (i < 9999999)
@@ -46,11 +47,8 @@ int main(int argc, char **argv) {
             printf("The num is : %d\n", i);
             break;
         }
-        else
-            printf("%s\n", num_str);
         i++;
     }
-
     close(fd);
     return 0;
 }
